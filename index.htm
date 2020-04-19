@@ -1,0 +1,1277 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+/* Site Efektleri */
+function click (e) {
+  if (!e)
+    e = window.event;
+  if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) || (e.which && e.which == 3)) {
+    if (window.opera)
+      window.alert("Üzgünüz: bu özellik devre dışıdır.");
+    return false;
+  }
+}
+if (document.layers)
+  document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown = click;
+document.oncontextmenu = click;
+//]]>
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Anasayfa - MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim!</title>
+	<base href="https://mcpremium.me/">
+    <meta name="author" content="https://tatli.xyz , green">
+    <link rel="shortcut icon" href="assets\img\favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets\img\favicon.png" type="image/x-icon">
+	
+	<!--OG & SEO AYARLARI VS VS-->
+	<meta name="keywords" content="minecraft premium, ucuz minecraft, ucuz minecraft premium, ucuz minecraft premium satın al, minecraft premium satın al, güvenilir minecraft premium, ininal kart ile minecraft premium, ucuz minecraft satın al,Ucuz oyun satın al, ucuz gta 5 satın al,minecraft, ucuz oyun, ucuz oyun al, ucuz oyun satın al, minecraft satın al, minecraft ucuz premium, minecraft premium hesap satın al, minecraft satın al ucuz, minecraft premium satın al ininal, steam random key, steam random key satın al, ucuz steam random key, predunyam, minecraft premium alma, optifine cape satın al, minecraft cape satın al, minecraft premium al, premium hesap, minecraft premium hesap">
+	<meta name="description" content="MCPremium üzerinden Orijinal Minecraft Premium ya da Beğendiğiniz oyun hesabınızı garantili ve güvenli bir şekilde satın alın. Ömür boyu garanti kapsamı, 7/24 canlı destek.">
+	<meta property="og:title" content="MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim!">
+    <meta property="og:description" content="MCPremium üzerinden Orijinal Minecraft Premium ya da Beğendiğiniz oyun hesabınızı garantili ve güvenli bir şekilde satın alın. Ömür boyu garanti kapsamı, 7/24 canlı destek.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mcpremium.me/assets/img/favicon.png">
+    <meta property="og:url" content="https://mcpremium.me/">
+    <meta property="twitter:title" content="MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim!">
+    <meta property="twitter:description" content="MCPremium üzerinden Orijinal Minecraft Premium ya da Beğendiğiniz oyun hesabınızı garantili ve güvenli bir şekilde satın alın. Ömür boyu garanti kapsamı, 7/24 canlı destek.">
+    <meta name="content-language" content="tr">
+    <meta name="theme-color" content="#00d8ff">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <!-- CSS -->
+    <link href="assets\tatli\vendor\bootstrap\css\bootstrap.css" rel="stylesheet">
+    <link href="assets\tatli\css\shop-homepage.css" rel="stylesheet">
+	<link href="//use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<script>
+	const swalTatli = Swal.mixin({
+		  customClass: {
+			confirmButton: 'btn btn-primary',
+			cancelButton: 'btn btn-danger'
+		  },
+		  buttonsStyling: false
+		})
+
+	</script>
+    <style>
+		::-webkit-scrollbar {
+		  width: 10px;
+		}
+		::-webkit-scrollbar-track {
+		  
+		  background: #fff; 
+		}
+		::-webkit-scrollbar-thumb {
+		  
+		  background: linear-gradient(to top,#00d8ff 0%,#00d8ff 100%);
+		}
+		::-webkit-scrollbar-thumb:hover {
+		  
+		  background: linear-gradient(to top,#00d8ff 0%,#00d8ff 100%);
+		}
+
+        body {overflow-y: scroll!important;}
+		.btn-custompurple {
+		  background-color: #00d8ff;
+		}
+		.btn-rez {
+		  background-color: #00d8ff;
+		}
+		.not-fixed-top {
+			width: 100%;
+			height: 420px;
+			background-image: url('assets/img/wallpaper.png');
+			
+			background-size: cover;
+			background-position: center;,
+		}
+		.card h5 {
+		  background: #28a745;
+		}
+		.rezende-title:after {
+		  background: #00d8ff;
+		}
+		a {
+		  color: #00d8ff;
+		}
+		a:hover {
+		  color: #00d8ff;
+		}
+		.form-control:focus {
+		  border-color: #00d8ff;
+		}
+		.btn-primary {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-primary.disabled, .btn-primary:disabled {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary {
+		  color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary:not([disabled]):not(.disabled):active, .btn-outline-primary:not([disabled]):not(.disabled).active,
+		.show > .btn-outline-primary.dropdown-toggle {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary:hover {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+		  color: #00d8ff;
+		}
+		.btn-link {
+		  color: #00d8ff;
+		}
+		.btn-link:hover {
+		  color: #00d8ff;
+		}
+		.dropdown-item:focus, .dropdown-item:hover {
+		  background-color: #00d8ff;
+		}
+		.custom-control-input:checked ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.dropdown-item.active, .dropdown-item:active {
+		  background-color: #00d8ff;
+		}
+		.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.custom-select:focus {
+		  border-color: #00d8ff;
+		}
+		.custom-file-input:focus ~ .custom-file-control {
+		  border-color: #00d8ff;
+		}	
+		.custom-file-input:focus ~ .custom-file-control::before {
+		  border-color: #00d8ff;
+		}	
+		.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+		  border-color: #00d8ff;
+		}
+		.nav-pills .nav-link.active,
+		.nav-pills .show > .nav-link {
+		  background-color: #00d8ff;
+		}
+		.page-link {
+		  color: #00d8ff;
+		}
+		.page-link:focus, .page-link:hover {
+		  color: #00d8ff;
+		}
+		.page-item.active .page-link {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.badge-primary {
+		  background-color: #00d8ff;
+		}
+		.progress-bar {
+		  background-color: #00d8ff;
+		}
+		.bg-primary {
+		  background-color: #00d8ff !important;
+		}
+		.border-primary {
+		  border-color: #00d8ff !important;
+		}
+		.text-primary {
+		  color: #00d8ff !important;
+		}
+		.nav-tabs .nav-link:hover,
+		.nav-tabs .nav-link.active,
+		.nav-tabs .nav-link.active:hover,
+		.nav-tabs .nav-link.active:focus {
+		  border-bottom: 1px solid #00d8ff;
+		}
+		.btn-primary:hover {
+		  color: #fff;
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		  opacity:0.9;
+		}
+		.nav-link {
+			background-image: linear-gradient(to right,#00d8ff 0%,#00d8ff 100%);
+			box-shadow: 3px 3px 0 0 #00d8ff;
+		}
+		.not-fixed-top
+		{
+		}
+		.nav-link:hover
+		{
+			color: #fff	;
+			box-shadow: 4px 4px 0 0 #00d8ff;
+			transform: translateY(2px);
+		}
+		.tatli-after:after {
+			background: url('assets/img/wave.png') no-repeat;
+			content: "";
+			position: absolute;
+			background-size: cover;
+			top: 363px;
+			left: 0;
+			height: 120px;
+			width: 100%;
+		}
+		.navbar-toggler
+		{
+			color:#fff;
+			background-image: linear-gradient(to right,#00d8ff 0%,#52ff00 100%);
+		}
+		.logo-genel
+		{
+			position: relative;
+			display: block;
+			animation: float 3s ease-in-out infinite;
+			cursor: pointer;
+			width: 100%;
+		}
+		.swal2-confirm
+		{
+			background: linear-gradient(to right,#00d8ff 0%,#00d8ff 100%);
+		}
+		.modal-content
+		{
+			border-bottom-left-radius:8px;
+			border-bottom-right-radius:8px;
+			border-top-left-radius:8px;
+			border-top-right-radius:8px;
+			border:0px;
+		}
+		.modal-header
+		{
+			padding: 1.5rem;
+			background: linear-gradient(to right,#00d8ff 0%,#00d8ff 100%);
+			border-top-left-radius:8px;
+			border-top-right-radius:8px;
+		}
+		.modal-header .modal-title
+		{
+			font-size: 1.5rem;
+			color:#fff;
+		}
+		.modal-header .modal-title span
+		{
+			font-size: 1rem;
+			color:#fff;
+		}
+		.modal-header .modal-price
+		{
+			font-size: 3rem;
+			color:#fff;
+		}
+        .table-head {
+        background-color: #040215;
+        font-size: 6px;
+        border-bottom: 3px solid #00ff7b;
+        color: white;
+        }
+    </style>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5daf5a2c78ab74187a5afa64/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<script src="https://cdn.rawgit.com/scottschiller/Snowstorm/master/snowstorm-min.js"></script>
+
+</head>
+
+<body>
+<!-- Navigation -->
+<div class="table-head" style="height:40px;line-height:40px;">
+    <marquee class="celilduyuru" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><style>.celilduyuru span {padding-right: 75px; font-size: 16px;}</style>
+         <span>MCPremium sizlerle buluşuyor... Çok yakında... Çok çok çok yakında.</span>                            
+    </marquee>
+</div>
+<div class="not-fixed-top">
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="anasayfa.html">
+						Anasayfa
+						</a>
+					</li>
+					
+											<li class="nav-item"><a class="nav-link" href="girisyap.html">Giriş Yap</a></li>
+						<li class="nav-item"><a class="nav-link" href="kayitol.html">Kayıt Ol</a></li>
+																			</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row d-flex justify-content-center">
+		<div class="col-xs-12 col-md-4">
+			<img class="logo-genel" src="assets\img\logo.png">
+		</div>
+	</div>
+</div>
+<!-- Page Content -->
+<div class="tatli-page">
+    <div class="row tatli-after">
+<style>
+.card-header
+{
+    position: relative;
+    color: #fff;
+    padding: 20px 15px 0;
+    height: 130px;
+    top: 0;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: unset;
+}
+.card-title a
+{    font-family: montserrat,sans-serif;
+	color:#fff;
+    font-size: 24px;
+    white-space: nowrap;
+    margin-bottom: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.card-body
+{
+    padding-top: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+.bilgi-card
+{
+	z-index:1;
+}
+.bilgi-card
+{
+	border:0px;
+	box-shadow: 0 15px 40px 0 #0000001c;
+  transition: .2s;
+}
+.bilgi-card .card-body
+{
+    display: flex;
+	height:220px;
+    box-shadow: 0 15px 40px 0 #0000001c;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+    border-radius: 10px;
+    transition: .2s ease-in-out,transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+}
+.bilgi-card .card-body h1
+{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 15px auto;
+    color: #000;
+    text-align: center;
+    font-family: montserrat,sans-serif;
+}
+.bilgi-card:hover
+{
+	
+	transform: translateY(-10px);
+
+}
+.bilgi-bilgi
+{
+    font-size: 17px;
+    color: #495256;
+    font-weight: normal;
+    text-align: center;
+}
+.bilgi-icon
+{
+    margin: -80px auto 0;
+    position: relative;
+    width: 90px;
+    min-width: 90px;
+    height: 90px;
+    min-height: 90px;
+    border-radius: 100px;
+    color: #fff;
+    display: flex;
+    background: linear-gradient(55deg,rgb(0,216,255,1),rgb(0,216,255,0.5));
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.rezende-kucuk-title
+{
+    color: #495256;
+	margin-top:-10px;
+}
+.urun-card
+{
+	border:0;
+    user-select: none;
+}
+.card .card-header
+{
+	border:0px;
+}	
+.urun-logo
+{
+	
+    width: 140px;
+    height: auto;
+    margin: 0 auto;
+}
+.urun-fiyat
+{
+    color: #404040;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.urun-eskifiyat
+{
+    text-decoration: line-through;
+    color: gray;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.modal-price
+{
+	color:#fff;
+    font-size: 3rem;
+}
+.buton-urun
+{
+    color: #fff;
+    font-weight: 600;
+    display: block;
+    font-size: 17px;
+    position: relative;
+    letter-spacing: 1px;
+    transition: .2s ease-in-out,transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+    padding: 14px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buton-urun:hover
+{
+	transform:scale(1.05);
+}
+
+</style>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-12 bg-white pb-5" style="border-radius: 1.5rem;">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="kategori-row">
+						<div class="row d-flex justify-content-center">
+							<div class="col-md-10">
+								<div class="row d-flex justify-content-center">
+																		<div class="col-lg-4 col-md-4 mb-4">
+										<div class="card bilgi-card">
+											<div class="card-body">
+												<i style="font-size: 46px;" class="fab fa-500px"></i>
+												<h1>Anında Teslimat!</h1>
+												<span class="bilgi-bilgi">
+													Ödeme işlemini tamamladığı an ürününüz müşteri panelinize gönderilir												</span>
+											</div>
+										</div>
+									</div>
+																		<div class="col-lg-4 col-md-4 mb-4">
+										<div class="card bilgi-card">
+											<div class="card-body">
+												<i style="font-size: 46px;" class="fas fa-star"></i>
+												<h1>Mutlu Müşteriler</h1>
+												<span class="bilgi-bilgi">
+													+1000 Mutlu Müşteri!												</span>
+											</div>
+										</div>
+									</div>
+																		<div class="col-lg-4 col-md-4 mb-4">
+										<div class="card bilgi-card">
+											<div class="card-body">
+												<i style="font-size: 46px;" class="fas fa-address-card"></i>
+												<h1>Güven ve Tecrübe</h1>
+												<span class="bilgi-bilgi">
+													Güvenliğiniz için sitemiz 3D Secure ve 128 BIT SSL Secure ile korunmaktadır.												</span>
+											</div>
+										</div>
+									</div>
+																		<div class="col-lg-4 col-md-4 mb-4">
+										<div class="card bilgi-card">
+											<div class="card-body">
+												<i style="font-size: 46px;" class="fas fa-rocket"></i>
+												<h1>7/24 Destek</h1>
+												<span class="bilgi-bilgi">
+													Siteye kayıt olup destek talebi açarak sorularınızı bildirebilirsiniz.												</span>
+											</div>
+										</div>
+									</div>
+																		<div class="col-lg-4 col-md-4 mb-4">
+										<div class="card bilgi-card">
+											<div class="card-body">
+												<i style="font-size: 46px;" class="fas fa-check"></i>
+												<h1>Uygun Fiyat</h1>
+												<span class="bilgi-bilgi">
+													MCPremium hesapları, müşteri memnuniyetini göz önünde tutarak en uygun fiyata sunar.												</span>
+											</div>
+										</div>
+									</div>
+																		<div class="col-lg-4 col-md-4 mb-4">
+										<div class="card bilgi-card">
+											<div class="card-body">
+												<i style="font-size: 46px;" class="fas fa-shopping-cart"></i>
+												<h1>Ödeme Yöntemleri</h1>
+												<span class="bilgi-bilgi">
+													Kartınız ile ek ücret ödemeden güvenle ürünlerimizi satın alabilirsin.												</span>
+											</div>
+										</div>
+									</div>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+									<div class="kategori-row">
+						<h1 class="rezende-title mb-0 &lt;div class=&quot;stil&quot;&gt;Hoş Geldiniz!&lt;/div&gt;" style="" id="minecraft1584790615"><b>Minecraft</b></h1>
+						<h6 class="text-center mb-4 rezende-kucuk-title">Minecraft kategorisinden 4 adet ürün listeleniyor</h6>
+						<div class="row d-flex justify-content-center">
+							<div class="col-md-10">
+								<div class="row d-flex justify-content-center">
+																<div class="modal fade" id="urunModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Demir Premium<span>Minecraft</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											2.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Özellikleri<br>
+Bilgileri Değişmez❌<br>
+Oyuna Giriş Yapıp Premium Sunuculara Bağlanılabilir✔️<br>
+Hiçbir Banı Yoktur. ✔️<br>
+Garantilidir ⭐									  </div>
+									  									  											  <div class="modal-footer">
+												<button type="button" class="btn btn-danger">Satın almak için hesabınıza giriş yapınız</button>
+											  </div>
+											  									  									</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun1" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Demir Premium<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											2.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\1.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(127,157,161,1),rgb(127,157,161,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Demir Premium</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\minecraft-demir-premium1584790762.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#7f9da1"><i class="fa fa-lira-sign"></i> 2.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 5.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(127,157,161,1),rgb(127,157,161,0.5));" data-toggle="modal" data-target="#urunModal-1">
+												
+												  												  Hemen satın al
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																<div class="modal fade" id="urunModal-2" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Altın Premium<span>Minecraft</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											6.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Özellikleri<br>
+Skini Değiştirilir ✔️<br>
+Oyun içi Adı Değiştirilir ✔️<br>
+Şifresi Değiştirilir ✔️<br>
+E-Posta Değiştirilemez ❌<br>
+Hiçbir Banı Yoktur.  ✔️<br>
+Oyuna Giriş Yapıp Premium Sunuculara Bağlanılabilir✔️<br>
+Garantilidir ⭐									  </div>
+									  									  									  <div class="modal-footer">
+										<button type="button" disabled="" class="btn btn-danger">Stokta Yok</button>
+									  </div>
+																			</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun2" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Altın Premium<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											6.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\2.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(220,201,29,1),rgb(220,201,29,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Altın Premium</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\minecraft-altin-premium1584810332.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#dcc91d"><i class="fa fa-lira-sign"></i> 6.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 12.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(220,201,29,1),rgb(220,201,29,0.5));" data-toggle="modal" data-target="#urunModal-2">
+												
+												  												  Stokta yok
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																<div class="modal fade" id="urunModal-3" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Elmas Premium<span>Minecraft</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											35.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Özellikleri<br>
+Skini Değiştirilir ✔️<br>
+Oyun içi Adı Değiştirilir ✔️<br>
+Şifresi Değiştirilir ✔️<br>
+E-Posta Değiştirilir ✔️<br>
+Hiçbir Banı Yoktur.  ✔️<br>
+Oyuna Giriş Yapıp Premium Sunuculara Bağlanılabilir✔️<br>
+Garantilidir ⭐									  </div>
+									  									  									  <div class="modal-footer">
+										<button type="button" disabled="" class="btn btn-danger">Stokta Yok</button>
+									  </div>
+																			</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun3" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Elmas Premium<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											35.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\3.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(64,169,194,1),rgb(64,169,194,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Elmas Premium</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\elmas-premium1584810421.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#40a9c2"><i class="fa fa-lira-sign"></i> 35.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 65.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(64,169,194,1),rgb(64,169,194,0.5));" data-toggle="modal" data-target="#urunModal-3">
+												
+												  												  Stokta yok
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																<div class="modal fade" id="urunModal-7" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Optifine Cape<span>Minecraft</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											35.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Şık görünümlü ve kişiselleştirilebilir optifine pelerininizi hemen alın!									  </div>
+									  									  									  <div class="modal-footer">
+										<button type="button" disabled="" class="btn btn-danger">Stokta Yok</button>
+									  </div>
+																			</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun7" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Optifine Cape<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											35.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\7.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(30,199,201,1),rgb(30,199,201,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Optifine Cape</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\optifine-cape1584904695.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#1ec7c9"><i class="fa fa-lira-sign"></i> 35.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 60.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(30,199,201,1),rgb(30,199,201,0.5));" data-toggle="modal" data-target="#urunModal-7">
+												
+												  												  Stokta yok
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																</div>
+							</div>
+						</div>
+					</div>
+									<div class="kategori-row">
+						<h1 class="rezende-title mb-0 " style="" id="karantinada-sikilmamaniz-icin-alabileceginiz-hesaplar1585252691"><b>Karantinada sıkılmamanız için alabileceğiniz hesaplar</b></h1>
+						<h6 class="text-center mb-4 rezende-kucuk-title">Karantinada sıkılmamanız için alabileceğiniz hesaplar kategorisinden 2 adet ürün listeleniyor</h6>
+						<div class="row d-flex justify-content-center">
+							<div class="col-md-10">
+								<div class="row d-flex justify-content-center">
+																<div class="modal fade" id="urunModal-10" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Spotify Aboneliği<span>Karantinada sıkılmamanız için alabileceğiniz hesaplar</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											8.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										➤ Reklam kesintisi yok.<br>
+➤ Sınırsız şarkı atlama hakkı.<br>
+➤ İstediğin yerde müzik indir, istediğin yerde dinle.<br>
+➤ Dizüstü bilgisayar, telefon ve tabletinizde dinleyin.<br>
+➤ Garantili<br>
+➤ Orijinal Fiyat: 17,99 TL									  </div>
+									  									  											  <div class="modal-footer">
+												<button type="button" class="btn btn-danger">Satın almak için hesabınıza giriş yapınız</button>
+											  </div>
+											  									  									</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun10" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Spotify Aboneliği<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											8.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\10.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(79,148,79,1),rgb(79,148,79,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Spotify Aboneliği</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\spotify-aboneligi1585253930.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#4f944f"><i class="fa fa-lira-sign"></i> 8.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 17.99</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(79,148,79,1),rgb(79,148,79,0.5));" data-toggle="modal" data-target="#urunModal-10">
+												
+												  												  Hemen satın al
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																<div class="modal fade" id="urunModal-9" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Netflix Aboneliği<span>Karantinada sıkılmamanız için alabileceğiniz hesaplar</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											8.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Netflix Hesap (1 Aylık):<br>
+➤ Dizüstü bilgisayar, TV, telefon ve tabletinizde seyredin<br>
+➤ Sınırsız film ve televizyon programları<br>
+➤ Satın aldığınızda abonelik başlatılır. <br>
+➤ Hesaplar size özeldir. Sadece siz girersiniz.<br>
+➤ Garanti									  </div>
+									  									  									  <div class="modal-footer">
+										<button type="button" disabled="" class="btn btn-danger">Stokta Yok</button>
+									  </div>
+																			</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun9" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Netflix Aboneliği<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											8.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\9.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(130,68,68,1),rgb(130,68,68,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Netflix Aboneliği</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\netflix-aboneligi1585253884.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#824444"><i class="fa fa-lira-sign"></i> 8.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 15.99</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(130,68,68,1),rgb(130,68,68,0.5));" data-toggle="modal" data-target="#urunModal-9">
+												
+												  												  Stokta yok
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																</div>
+							</div>
+						</div>
+					</div>
+									<div class="kategori-row">
+						<h1 class="rezende-title mb-0 " style="" id="minecraft-skin1584817389"><b>Minecraft Skin!</b></h1>
+						<h6 class="text-center mb-4 rezende-kucuk-title">Minecraft Skin! kategorisinden 3 adet ürün listeleniyor</h6>
+						<div class="row d-flex justify-content-center">
+							<div class="col-md-10">
+								<div class="row d-flex justify-content-center">
+																<div class="modal fade" id="urunModal-4" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Ucuz Skin<span>Minecraft Skin!</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											10.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Bu pakette önceden özel olarak yapılmış rastgele bir skin verilir. Cinsiyetinize göre seçim olmaktadır. Satın aldıktan sonra sitenin en altında bulunan discord sunucumuzdan bizimle iletişime geçerek skininizi teslim alabilirsiniz!									  </div>
+									  									  											  <div class="modal-footer">
+												<button type="button" class="btn btn-danger">Satın almak için hesabınıza giriş yapınız</button>
+											  </div>
+											  									  									</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun4" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Ucuz Skin<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											10.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\4.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(143,110,110,1),rgb(143,110,110,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Ucuz Skin</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\ucuz-skin1584817565.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#8f6e6e"><i class="fa fa-lira-sign"></i> 10.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 20.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(143,110,110,1),rgb(143,110,110,0.5));" data-toggle="modal" data-target="#urunModal-4">
+												
+												  												  Hemen satın al
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																<div class="modal fade" id="urunModal-5" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Orta Skin<span>Minecraft Skin!</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											15.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Bu pakette skin tarif ettiğiniz şekilde yapılır. Tavsiye edilen pakettir. Satın aldıktan sonra sitenin en altında bulunan discord sunucumuzdan bizimle iletişime geçerek skininizi teslim alabilirsiniz!									  </div>
+									  									  											  <div class="modal-footer">
+												<button type="button" class="btn btn-danger">Satın almak için hesabınıza giriş yapınız</button>
+											  </div>
+											  									  									</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun5" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Orta Skin<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											15.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\5.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(159,194,85,1),rgb(159,194,85,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Orta Skin</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\orta-skin1584817498.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#9fc255"><i class="fa fa-lira-sign"></i> 15.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 25.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(159,194,85,1),rgb(159,194,85,0.5));" data-toggle="modal" data-target="#urunModal-5">
+												
+												  												  Hemen satın al
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																<div class="modal fade" id="urunModal-6" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Premium Skin<span>Minecraft Skin!</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											25.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										Bu pakette skin tasarım ekibimiz tarafından tarif ettiğiniz şekilde özenle yapılır.  <br>
+Skinde tüm özelleştirmeleri yapabiirsiniz. <br>
+Satın aldıktan sonra ekenmesini istedikleriniz ücretsiz eklenir. <br>
+Satın aldıktan sonra destek açın.									  </div>
+									  									  											  <div class="modal-footer">
+												<button type="button" class="btn btn-danger">Satın almak için hesabınıza giriş yapınız</button>
+											  </div>
+											  									  									</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun6" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Premium Skin<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											25.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\6.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-3 col-md-3 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(217,46,200,1),rgb(217,46,200,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Premium Skin</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\premium-skin1584817536.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#d92ec8"><i class="fa fa-lira-sign"></i> 25.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 50.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(217,46,200,1),rgb(217,46,200,0.5));" data-toggle="modal" data-target="#urunModal-6">
+												
+												  												  Hemen satın al
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																</div>
+							</div>
+						</div>
+					</div>
+									<div class="kategori-row">
+						<h1 class="rezende-title mb-0 " style="" id="kiziltas-rankli-craftrise-hesabi1585002945"><b>CraftRise Hesapları</b></h1>
+						<h6 class="text-center mb-4 rezende-kucuk-title">CraftRise Hesapları kategorisinden 1 adet ürün listeleniyor</h6>
+						<div class="row d-flex justify-content-center">
+							<div class="col-md-10">
+								<div class="row d-flex justify-content-center">
+																<div class="modal fade" id="urunModal-8" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Kızıltaş Ranklı Hesap<span>CraftRise Hesapları</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											25.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+									  									  <div class="modal-body">
+										50.000 Coin💵<br>
+Destansı Garantili (6 adet )🏄‍♂<br>
+Kızıltaş Rank🎖<br>
+10+ Nadir Eşya🎯<br>
+Evcil hayvan garantili🐶									  </div>
+									  									  									  <div class="modal-footer">
+										<button type="button" disabled="" class="btn btn-danger">Stokta Yok</button>
+									  </div>
+																			</div>
+								  </div>
+							  </div>
+								<div class="modal fade" id="buyUrun8" tabindex="-1" role="dialog" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title d-flex flex-column">Kızıltaş Ranklı Hesap<span>Ödeme Yöntemini Seçiniz</span></h5>
+										<div class="modal-price ml-auto d-flex flex-row align-items-center">
+											<div class="modal-price-value">
+											25.00											&nbsp;<i class="fa fa-lira-sign"></i>
+											</div>
+										</div>
+									  </div>
+										<div class="modal-body">
+										  <div class="row">
+																							<div class="col-md-12 text-center" style="border-bottom:1px solid gray;padding-bottom:15px;padding-top:15px;">
+												<a href="satinal\shopier\8.html"><h5>shopier</h5><img style="width: 100%;" src="https://www.shopier.com/m/assets/img/shopier_logo.png"></a>
+												</div>
+																						  </div>
+										</div>
+									</div>
+								  </div>
+							  </div>
+								<div class="col-lg-6 col-md-6 mb-4">
+									<div class="card urun-card">
+										<div class="card-header" style="background: linear-gradient(195deg,rgb(183,221,64,1),rgb(183,221,64,0.5));">
+											<h4 class="card-title text-center mb-0">
+												<a>Kızıltaş Ranklı Hesap</a>
+											</h4>
+											<img class="urun-logo" src="uploads\products\kiziltas-rankli-hesap1585003057.png">
+										</div>
+											<div class="card-body">
+																								<div class="urun-fiyat" style="color:#b7dd40"><i class="fa fa-lira-sign"></i> 25.00</div>
+												<div class="urun-eskifiyat"><i class="fa fa-lira-sign"></i> 40.00</div>
+																								<button type="button" class="buton-urun" style="background: linear-gradient(195deg,rgb(183,221,64,1),rgb(183,221,64,0.5));" data-toggle="modal" data-target="#urunModal-8">
+												
+												  												  Stokta yok
+												  												</button>												
+											</div>
+									</div>
+								</div>
+																</div>
+							</div>
+						</div>
+					</div>
+								</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.col-lg-9 -->	</div>
+	<!-- /.row -->
+</div>
+<style>
+
+</style>
+<footer class="py-5">
+    <div class="container">
+		<div class="social-buttons">
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+			<span class="social-button__inner">
+			 <i class="fab fa-facebook-f"></i>
+			</span>
+		  </a>
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
+			<span class="social-button__inner">
+			 <i class="fab fa-twitter"></i>
+			</span>
+		  </a>
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--discord" aria-label="Discord">
+			<span class="social-button__inner">
+			 <i class="fab fa-discord"></i>
+			</span>
+		  </a>
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--instagram" aria-label="Instagram">
+			<span class="social-button__inner">
+			 <i class="fab fa-instagram"></i>
+			</span>
+		  </a>
+		</div>
+           <p><p style="text-align:center"><strong>MCPremium</strong></p>
+       <p class="m-0 text-center "><strong>Copyright 2020</strong> &copy; MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim! <br>MCPremium  <a href="kullanim.html">Kullanım Koşulları</a></p>
+        </div> <div> <div class="footer-widget py-4" style="background-color: #2ad4a1"> <div class="container"> <div class="row"> <div class="col-12 text-center small"> MCPremium.Me'nin Mojang/Microsoft, Minecraft.net, Steam, Origin ve Uplay ile bir bağlantısı yoktur.    </div>  </div>  </div> </div>
+    </div>
+    <!-- /.container -->
+
+
+
+
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="assets\tatli\vendor\jquery\jquery.min.js"></script>
+<script src="assets\tatli\vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+/* Site Efektleri */
+function click (e) {
+  if (!e)
+    e = window.event;
+  if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) || (e.which && e.which == 3)) {
+    if (window.opera)
+      window.alert("Üzgünüz: bu özellik devre dışıdır.");
+    return false;
+  }
+}
+if (document.layers)
+  document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown = click;
+document.oncontextmenu = click;
+//]]>
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Ürün Satın Al - MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim!</title>
+	<base href="https://mcpremium.me/">
+    <meta name="author" content="https://tatli.xyz , green">
+    <link rel="shortcut icon" href="..\..\assets\img\favicon.png" type="image/x-icon">
+    <link rel="icon" href="..\..\assets\img\favicon.png" type="image/x-icon">
+	
+	<!--OG & SEO AYARLARI VS VS-->
+	<meta name="keywords" content="minecraft premium, ucuz minecraft, ucuz minecraft premium, ucuz minecraft premium satın al, minecraft premium satın al, güvenilir minecraft premium, ininal kart ile minecraft premium, ucuz minecraft satın al,Ucuz oyun satın al, ucuz gta 5 satın al,minecraft, ucuz oyun, ucuz oyun al, ucuz oyun satın al, minecraft satın al, minecraft ucuz premium, minecraft premium hesap satın al, minecraft satın al ucuz, minecraft premium satın al ininal, steam random key, steam random key satın al, ucuz steam random key, predunyam, minecraft premium alma, optifine cape satın al, minecraft cape satın al, minecraft premium al, premium hesap, minecraft premium hesap">
+	<meta name="description" content="MCPremium üzerinden Orijinal Minecraft Premium ya da Beğendiğiniz oyun hesabınızı garantili ve güvenli bir şekilde satın alın. Ömür boyu garanti kapsamı, 7/24 canlı destek.">
+	<meta property="og:title" content="MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim!">
+    <meta property="og:description" content="MCPremium üzerinden Orijinal Minecraft Premium ya da Beğendiğiniz oyun hesabınızı garantili ve güvenli bir şekilde satın alın. Ömür boyu garanti kapsamı, 7/24 canlı destek.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mcpremium.me/assets/img/favicon.png">
+    <meta property="og:url" content="https://mcpremium.me/">
+    <meta property="twitter:title" content="MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim!">
+    <meta property="twitter:description" content="MCPremium üzerinden Orijinal Minecraft Premium ya da Beğendiğiniz oyun hesabınızı garantili ve güvenli bir şekilde satın alın. Ömür boyu garanti kapsamı, 7/24 canlı destek.">
+    <meta name="content-language" content="tr">
+    <meta name="theme-color" content="#00d8ff">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <!-- CSS -->
+    <link href="..\..\assets\tatli\vendor\bootstrap\css\bootstrap.css" rel="stylesheet">
+    <link href="..\..\assets\tatli\css\shop-homepage.css" rel="stylesheet">
+	<link href="//use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<script>
+	const swalTatli = Swal.mixin({
+		  customClass: {
+			confirmButton: 'btn btn-primary',
+			cancelButton: 'btn btn-danger'
+		  },
+		  buttonsStyling: false
+		})
+
+	</script>
+    <style>
+		::-webkit-scrollbar {
+		  width: 10px;
+		}
+		::-webkit-scrollbar-track {
+		  
+		  background: #fff; 
+		}
+		::-webkit-scrollbar-thumb {
+		  
+		  background: linear-gradient(to top,#00d8ff 0%,#00d8ff 100%);
+		}
+		::-webkit-scrollbar-thumb:hover {
+		  
+		  background: linear-gradient(to top,#00d8ff 0%,#00d8ff 100%);
+		}
+
+        body {overflow-y: scroll!important;}
+		.btn-custompurple {
+		  background-color: #00d8ff;
+		}
+		.btn-rez {
+		  background-color: #00d8ff;
+		}
+		.not-fixed-top {
+			width: 100%;
+			height: 420px;
+			background-image: url('../../assets/img/wallpaper.png');
+			
+			background-size: cover;
+			background-position: center;,
+		}
+		.card h5 {
+		  background: #28a745;
+		}
+		.rezende-title:after {
+		  background: #00d8ff;
+		}
+		a {
+		  color: #00d8ff;
+		}
+		a:hover {
+		  color: #00d8ff;
+		}
+		.form-control:focus {
+		  border-color: #00d8ff;
+		}
+		.btn-primary {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-primary.disabled, .btn-primary:disabled {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary {
+		  color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary:not([disabled]):not(.disabled):active, .btn-outline-primary:not([disabled]):not(.disabled).active,
+		.show > .btn-outline-primary.dropdown-toggle {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary:hover {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+		  color: #00d8ff;
+		}
+		.btn-link {
+		  color: #00d8ff;
+		}
+		.btn-link:hover {
+		  color: #00d8ff;
+		}
+		.dropdown-item:focus, .dropdown-item:hover {
+		  background-color: #00d8ff;
+		}
+		.custom-control-input:checked ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.dropdown-item.active, .dropdown-item:active {
+		  background-color: #00d8ff;
+		}
+		.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+		  background-color: #00d8ff;
+		}
+		.custom-select:focus {
+		  border-color: #00d8ff;
+		}
+		.custom-file-input:focus ~ .custom-file-control {
+		  border-color: #00d8ff;
+		}	
+		.custom-file-input:focus ~ .custom-file-control::before {
+		  border-color: #00d8ff;
+		}	
+		.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+		  border-color: #00d8ff;
+		}
+		.nav-pills .nav-link.active,
+		.nav-pills .show > .nav-link {
+		  background-color: #00d8ff;
+		}
+		.page-link {
+		  color: #00d8ff;
+		}
+		.page-link:focus, .page-link:hover {
+		  color: #00d8ff;
+		}
+		.page-item.active .page-link {
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		}
+		.badge-primary {
+		  background-color: #00d8ff;
+		}
+		.progress-bar {
+		  background-color: #00d8ff;
+		}
+		.bg-primary {
+		  background-color: #00d8ff !important;
+		}
+		.border-primary {
+		  border-color: #00d8ff !important;
+		}
+		.text-primary {
+		  color: #00d8ff !important;
+		}
+		.nav-tabs .nav-link:hover,
+		.nav-tabs .nav-link.active,
+		.nav-tabs .nav-link.active:hover,
+		.nav-tabs .nav-link.active:focus {
+		  border-bottom: 1px solid #00d8ff;
+		}
+		.btn-primary:hover {
+		  color: #fff;
+		  background-color: #00d8ff;
+		  border-color: #00d8ff;
+		  opacity:0.9;
+		}
+		.nav-link {
+			background-image: linear-gradient(to right,#00d8ff 0%,#00d8ff 100%);
+			box-shadow: 3px 3px 0 0 #00d8ff;
+		}
+		.not-fixed-top
+		{
+		}
+		.nav-link:hover
+		{
+			color: #fff	;
+			box-shadow: 4px 4px 0 0 #00d8ff;
+			transform: translateY(2px);
+		}
+		.tatli-after:after {
+			background: url('../../assets/img/wave.png') no-repeat;
+			content: "";
+			position: absolute;
+			background-size: cover;
+			top: 363px;
+			left: 0;
+			height: 120px;
+			width: 100%;
+		}
+		.navbar-toggler
+		{
+			color:#fff;
+			background-image: linear-gradient(to right,#00d8ff 0%,#52ff00 100%);
+		}
+		.logo-genel
+		{
+			position: relative;
+			display: block;
+			animation: float 3s ease-in-out infinite;
+			cursor: pointer;
+			width: 100%;
+		}
+		.swal2-confirm
+		{
+			background: linear-gradient(to right,#00d8ff 0%,#00d8ff 100%);
+		}
+		.modal-content
+		{
+			border-bottom-left-radius:8px;
+			border-bottom-right-radius:8px;
+			border-top-left-radius:8px;
+			border-top-right-radius:8px;
+			border:0px;
+		}
+		.modal-header
+		{
+			padding: 1.5rem;
+			background: linear-gradient(to right,#00d8ff 0%,#00d8ff 100%);
+			border-top-left-radius:8px;
+			border-top-right-radius:8px;
+		}
+		.modal-header .modal-title
+		{
+			font-size: 1.5rem;
+			color:#fff;
+		}
+		.modal-header .modal-title span
+		{
+			font-size: 1rem;
+			color:#fff;
+		}
+		.modal-header .modal-price
+		{
+			font-size: 3rem;
+			color:#fff;
+		}
+        .table-head {
+        background-color: #040215;
+        font-size: 6px;
+        border-bottom: 3px solid #00ff7b;
+        color: white;
+        }
+    </style>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5daf5a2c78ab74187a5afa64/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<script src="https://cdn.rawgit.com/scottschiller/Snowstorm/master/snowstorm-min.js"></script>
+
+</head>
+
+<body>
+<!-- Navigation -->
+<div class="table-head" style="height:40px;line-height:40px;">
+    <marquee class="celilduyuru" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><style>.celilduyuru span {padding-right: 75px; font-size: 16px;}</style>
+         <span>MCPremium sizlerle buluşuyor... Çok yakında... Çok çok çok yakında.</span>                            
+    </marquee>
+</div>
+<div class="not-fixed-top">
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="..\..\anasayfa.html">
+						Anasayfa
+						</a>
+					</li>
+					
+											<li class="nav-item"><a class="nav-link" href="..\..\girisyap.html">Giriş Yap</a></li>
+						<li class="nav-item"><a class="nav-link" href="..\..\kayitol.html">Kayıt Ol</a></li>
+																			</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row d-flex justify-content-center">
+		<div class="col-xs-12 col-md-4">
+			<img class="logo-genel" src="..\..\assets\img\logo.png">
+		</div>
+	</div>
+</div>
+<!-- Page Content -->
+<div class="tatli-page">
+    <div class="row tatli-after"><meta http-equiv="refresh" content="1;URL=..\..\payment\request\shopier\index-2.htmlex.php?id=3">		
+	
+        <div class="col-lg-12 bg-white pb-5 mt-5" style="border-radius: 1.5rem;">
+			<div class="row">
+				<div class="col-md-12 text-center" style="color:green;">
+					<h1><i class="fas fa-spinner fa-pulse fa-2x"></i></h1>
+					<h1>Ödeme Sayfasına Yönlendiriliyorsunuz...</h1>
+				</div>
+			</div>
+		</div>	</div>
+	<!-- /.row -->
+</div>
+<style>
+
+</style>
+<footer class="py-5">
+    <div class="container">
+		<div class="social-buttons">
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+			<span class="social-button__inner">
+			 <i class="fab fa-facebook-f"></i>
+			</span>
+		  </a>
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
+			<span class="social-button__inner">
+			 <i class="fab fa-twitter"></i>
+			</span>
+		  </a>
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--discord" aria-label="Discord">
+			<span class="social-button__inner">
+			 <i class="fab fa-discord"></i>
+			</span>
+		  </a>
+				  <a href="https://discord.gg/M2Pu4aM" class="social-buttons__button social-button social-button--instagram" aria-label="Instagram">
+			<span class="social-button__inner">
+			 <i class="fab fa-instagram"></i>
+			</span>
+		  </a>
+		</div>
+           <p><p style="text-align:center"><strong>MCPremium</strong></p>
+       <p class="m-0 text-center "><strong>Copyright 2020</strong> &copy; MCPremium |Ucuz ve Güvenilir Oyunların Adresi! Açılışa Özel Dev İndirim! <br>MCPremium  <a href="..\..\kullanim.html">Kullanım Koşulları</a></p>
+        </div> <div> <div class="footer-widget py-4" style="background-color: #2ad4a1"> <div class="container"> <div class="row"> <div class="col-12 text-center small"> MCPremium.Me'nin Mojang/Microsoft, Minecraft.net, Steam, Origin ve Uplay ile bir bağlantısı yoktur.    </div>  </div>  </div> </div>
+    </div>
+    <!-- /.container -->
+
+
+
+
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="..\..\assets\tatli\vendor\jquery\jquery.min.js"></script>
+<script src="..\..\assets\tatli\vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
+
+</body>
+
+
+</html>
